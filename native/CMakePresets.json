@@ -1,0 +1,37 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "release",
+      "displayName": "Release, cross-built with clang-cl against an xwin splat",
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/../build/native",
+      "environment": {
+        "CLOUDFITS_TOOLCHAINS": "$penv{HOME}/Projects/.toolchains"
+      },
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "CMAKE_TOOLCHAIN_FILE": "$env{CLOUDFITS_TOOLCHAINS}/vcpkg/scripts/buildsystems/vcpkg.cmake",
+        "VCPKG_CHAINLOAD_TOOLCHAIN_FILE": "$env{CLOUDFITS_TOOLCHAINS}/fo4-mcp-msvc/clang-cl-win64.cmake",
+        "VCPKG_OVERLAY_TRIPLETS": "${sourceDir}/triplets",
+        "VCPKG_TARGET_TRIPLET": "x64-windows-static-md-clangcl",
+        "VCPKG_HOST_TRIPLET": "x64-linux"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "release",
+      "configurePreset": "release"
+    }
+  ],
+  "workflowPresets": [
+    {
+      "name": "release",
+      "steps": [
+        { "type": "configure", "name": "release" },
+        { "type": "build", "name": "release" }
+      ]
+    }
+  ]
+}

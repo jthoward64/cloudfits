@@ -8,9 +8,6 @@ VirtualMachineAdapter:
       Name: CheckedOutFlag
       Object: 00084F:Cloudfits.esp
     - MutagenObjectType: ScriptObjectProperty
-      Name: CategoryCounts
-      Object: 000A82:Cloudfits.esp
-    - MutagenObjectType: ScriptObjectProperty
       Name: HomeMarker
       Object: 00081F:Cloudfits.esp
     - MutagenObjectType: ScriptObjectProperty
@@ -28,12 +25,6 @@ VirtualMachineAdapter:
     - MutagenObjectType: ScriptObjectProperty
       Name: WearPicker
       Object: 000831:Cloudfits.esp
-    - MutagenObjectType: ScriptObjectProperty
-      Name: StoreMenus
-      Object: 000A80:Cloudfits.esp
-    - MutagenObjectType: ScriptObjectProperty
-      Name: WearMenus
-      Object: 000A81:Cloudfits.esp
   Versioning:
   - Break0
   ExtraBindDataVersion: 0
@@ -347,52 +338,4 @@ Aliases:
   - UsesStoredText
   - ClearNamesWhenRemoved
   ForcedReference: 000A18:Cloudfits.esp
-  VoiceTypes: Null
-- MutagenObjectType: QuestReferenceAlias
-  ID: 25
-  Name: Slot26
-  Flags:
-  - Optional
-  - AllowReuseInQuest
-  - AllowDisabled
-  - StoresText
-  - UsesStoredText
-  - ClearNamesWhenRemoved
-  ForcedReference: 000A19:Cloudfits.esp
-  VoiceTypes: Null
-- MutagenObjectType: QuestReferenceAlias
-  ID: 26
-  Name: Slot27
-  Flags:
-  - Optional
-  - AllowReuseInQuest
-  - AllowDisabled
-  - StoresText
-  - UsesStoredText
-  - ClearNamesWhenRemoved
-  ForcedReference: 000A1A:Cloudfits.esp
-  VoiceTypes: Null
-- MutagenObjectType: QuestReferenceAlias
-  ID: 27
-  Name: Slot28
-  Flags:
-  - Optional
-  - AllowReuseInQuest
-  - AllowDisabled
-  - StoresText
-  - UsesStoredText
-  - ClearNamesWhenRemoved
-  ForcedReference: 000A1B:Cloudfits.esp
-  VoiceTypes: Null
-- MutagenObjectType: QuestReferenceAlias
-  ID: 28
-  Name: Slot29
-  Flags:
-  - Optional
-  - AllowReuseInQuest
-  - AllowDisabled
-  - StoresText
-  - UsesStoredText
-  - ClearNamesWhenRemoved
-  ForcedReference: 000A1C:Cloudfits.esp
   VoiceTypes: Null

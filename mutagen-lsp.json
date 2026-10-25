@@ -4,6 +4,7 @@
   "scripts": ["scripts/source"],
   "stage": {
     "MCM/Config/Cloudfits": "mcm/Config/Cloudfits",
-    "Scripts/Source": "scripts/source"
+    "Scripts/Source": "scripts/source",
+    "F4SE/Plugins/Cloudfits.dll": "build/native/Cloudfits.dll"
   }
 }

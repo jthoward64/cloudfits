@@ -1,0 +1,11 @@
+--- a/CommonLibF4/src/F4SE/API.cpp
++++ b/CommonLibF4/src/F4SE/API.cpp
+@@ -26,7 +26,7 @@
+ 			REL::Version f4seVersion;
+ 			PluginHandle pluginHandle{ static_cast<PluginHandle>(-1) };
+ 			std::uint32_t releaseIndex{ 0 };
+-			std::function<const void*(F4SEAPI)(const char*)> pluginInfoAccessor;
++			std::function<const void* F4SEAPI(const char*)> pluginInfoAccessor;
+ 
+ 			MessagingInterface* messagingInterface{ nullptr };
+ 			ScaleformInterface* scaleformInterface{ nullptr };

@@ -129,6 +129,244 @@
       "pageDisplayName": "Slots",
       "content": [
         {
+          "text": "Slot names",
+          "type": "section"
+        },
+        {
+          "text": "A slot appears in the menus once it has a name. A slot holding an outfit keeps its name until it is emptied.",
+          "type": "text",
+          "help": ""
+        },
+        {
+          "id": "sName01:Names",
+          "text": "Slot 1",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 1. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName02:Names",
+          "text": "Slot 2",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 2. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName03:Names",
+          "text": "Slot 3",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 3. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName04:Names",
+          "text": "Slot 4",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 4. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName05:Names",
+          "text": "Slot 5",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 5. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName06:Names",
+          "text": "Slot 6",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 6. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName07:Names",
+          "text": "Slot 7",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 7. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName08:Names",
+          "text": "Slot 8",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 8. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName09:Names",
+          "text": "Slot 9",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 9. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName10:Names",
+          "text": "Slot 10",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 10. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName11:Names",
+          "text": "Slot 11",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 11. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName12:Names",
+          "text": "Slot 12",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 12. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName13:Names",
+          "text": "Slot 13",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 13. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName14:Names",
+          "text": "Slot 14",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 14. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName15:Names",
+          "text": "Slot 15",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 15. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName16:Names",
+          "text": "Slot 16",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 16. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName17:Names",
+          "text": "Slot 17",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 17. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName18:Names",
+          "text": "Slot 18",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 18. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName19:Names",
+          "text": "Slot 19",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 19. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName20:Names",
+          "text": "Slot 20",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 20. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName21:Names",
+          "text": "Slot 21",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 21. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName22:Names",
+          "text": "Slot 22",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 22. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName23:Names",
+          "text": "Slot 23",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 23. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName24:Names",
+          "text": "Slot 24",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 24. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "id": "sName25:Names",
+          "text": "Slot 25",
+          "type": "textinput",
+          "valueOptions": {
+            "sourceType": "ModSettingString"
+          },
+          "help": "Name shown for slot 25. Leave empty to keep the slot out of the menus."
+        },
+        {
+          "type": "spacer",
+          "numLines": 1
+        },
+        {
           "text": "Empty a slot into your inventory",
           "type": "section"
         },
@@ -138,17 +376,9 @@
           "help": ""
         },
         {
-          "type": "spacer",
-          "numLines": 1
-        },
-        {
-          "text": "Armor",
-          "type": "section"
-        },
-        {
-          "text": "Empty Combat 1",
+          "text": "Empty slot 1",
           "type": "button",
-          "help": "Moves the contents of Combat 1 into your inventory.",
+          "help": "Moves the contents of slot 1 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -160,9 +390,9 @@
           }
         },
         {
-          "text": "Empty Combat 2",
+          "text": "Empty slot 2",
           "type": "button",
-          "help": "Moves the contents of Combat 2 into your inventory.",
+          "help": "Moves the contents of slot 2 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -174,9 +404,9 @@
           }
         },
         {
-          "text": "Empty Combat 3",
+          "text": "Empty slot 3",
           "type": "button",
-          "help": "Moves the contents of Combat 3 into your inventory.",
+          "help": "Moves the contents of slot 3 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -188,9 +418,9 @@
           }
         },
         {
-          "text": "Empty Exploration 1",
+          "text": "Empty slot 4",
           "type": "button",
-          "help": "Moves the contents of Exploration 1 into your inventory.",
+          "help": "Moves the contents of slot 4 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -202,9 +432,9 @@
           }
         },
         {
-          "text": "Empty Exploration 2",
+          "text": "Empty slot 5",
           "type": "button",
-          "help": "Moves the contents of Exploration 2 into your inventory.",
+          "help": "Moves the contents of slot 5 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -216,9 +446,9 @@
           }
         },
         {
-          "text": "Empty Exploration 3",
+          "text": "Empty slot 6",
           "type": "button",
-          "help": "Moves the contents of Exploration 3 into your inventory.",
+          "help": "Moves the contents of slot 6 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -230,9 +460,9 @@
           }
         },
         {
-          "text": "Empty Stealth",
+          "text": "Empty slot 7",
           "type": "button",
-          "help": "Moves the contents of Stealth into your inventory.",
+          "help": "Moves the contents of slot 7 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -244,17 +474,9 @@
           }
         },
         {
-          "type": "spacer",
-          "numLines": 1
-        },
-        {
-          "text": "Clothing",
-          "type": "section"
-        },
-        {
-          "text": "Empty Casual 1",
+          "text": "Empty slot 8",
           "type": "button",
-          "help": "Moves the contents of Casual 1 into your inventory.",
+          "help": "Moves the contents of slot 8 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -266,9 +488,9 @@
           }
         },
         {
-          "text": "Empty Casual 2",
+          "text": "Empty slot 9",
           "type": "button",
-          "help": "Moves the contents of Casual 2 into your inventory.",
+          "help": "Moves the contents of slot 9 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -280,9 +502,9 @@
           }
         },
         {
-          "text": "Empty Casual 3",
+          "text": "Empty slot 10",
           "type": "button",
-          "help": "Moves the contents of Casual 3 into your inventory.",
+          "help": "Moves the contents of slot 10 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -294,9 +516,9 @@
           }
         },
         {
-          "text": "Empty Formal 1",
+          "text": "Empty slot 11",
           "type": "button",
-          "help": "Moves the contents of Formal 1 into your inventory.",
+          "help": "Moves the contents of slot 11 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -308,9 +530,9 @@
           }
         },
         {
-          "text": "Empty Formal 2",
+          "text": "Empty slot 12",
           "type": "button",
-          "help": "Moves the contents of Formal 2 into your inventory.",
+          "help": "Moves the contents of slot 12 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -322,9 +544,9 @@
           }
         },
         {
-          "text": "Empty Formal 3",
+          "text": "Empty slot 13",
           "type": "button",
-          "help": "Moves the contents of Formal 3 into your inventory.",
+          "help": "Moves the contents of slot 13 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -336,9 +558,9 @@
           }
         },
         {
-          "text": "Empty Swim",
+          "text": "Empty slot 14",
           "type": "button",
-          "help": "Moves the contents of Swim into your inventory.",
+          "help": "Moves the contents of slot 14 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -350,9 +572,9 @@
           }
         },
         {
-          "text": "Empty Sleep",
+          "text": "Empty slot 15",
           "type": "button",
-          "help": "Moves the contents of Sleep into your inventory.",
+          "help": "Moves the contents of slot 15 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -364,17 +586,9 @@
           }
         },
         {
-          "type": "spacer",
-          "numLines": 1
-        },
-        {
-          "text": "Faction",
-          "type": "section"
-        },
-        {
-          "text": "Empty BoS",
+          "text": "Empty slot 16",
           "type": "button",
-          "help": "Moves the contents of BoS into your inventory.",
+          "help": "Moves the contents of slot 16 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -386,9 +600,9 @@
           }
         },
         {
-          "text": "Empty Minutemen",
+          "text": "Empty slot 17",
           "type": "button",
-          "help": "Moves the contents of Minutemen into your inventory.",
+          "help": "Moves the contents of slot 17 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -400,9 +614,9 @@
           }
         },
         {
-          "text": "Empty Institute",
+          "text": "Empty slot 18",
           "type": "button",
-          "help": "Moves the contents of Institute into your inventory.",
+          "help": "Moves the contents of slot 18 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -414,9 +628,9 @@
           }
         },
         {
-          "text": "Empty Railroad",
+          "text": "Empty slot 19",
           "type": "button",
-          "help": "Moves the contents of Railroad into your inventory.",
+          "help": "Moves the contents of slot 19 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -428,9 +642,9 @@
           }
         },
         {
-          "text": "Empty Raider",
+          "text": "Empty slot 20",
           "type": "button",
-          "help": "Moves the contents of Raider into your inventory.",
+          "help": "Moves the contents of slot 20 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -442,9 +656,9 @@
           }
         },
         {
-          "text": "Empty Gunner",
+          "text": "Empty slot 21",
           "type": "button",
-          "help": "Moves the contents of Gunner into your inventory.",
+          "help": "Moves the contents of slot 21 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -456,9 +670,9 @@
           }
         },
         {
-          "text": "Empty Diamond City",
+          "text": "Empty slot 22",
           "type": "button",
-          "help": "Moves the contents of Diamond City into your inventory.",
+          "help": "Moves the contents of slot 22 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -470,9 +684,9 @@
           }
         },
         {
-          "text": "Empty Goodneighbor",
+          "text": "Empty slot 23",
           "type": "button",
-          "help": "Moves the contents of Goodneighbor into your inventory.",
+          "help": "Moves the contents of slot 23 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -484,9 +698,9 @@
           }
         },
         {
-          "text": "Empty Far Harbor",
+          "text": "Empty slot 24",
           "type": "button",
-          "help": "Moves the contents of Far Harbor into your inventory.",
+          "help": "Moves the contents of slot 24 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -498,17 +712,9 @@
           }
         },
         {
-          "type": "spacer",
-          "numLines": 1
-        },
-        {
-          "text": "Utility",
-          "type": "section"
-        },
-        {
-          "text": "Empty Skill 1",
+          "text": "Empty slot 25",
           "type": "button",
-          "help": "Moves the contents of Skill 1 into your inventory.",
+          "help": "Moves the contents of slot 25 into your inventory.",
           "action": {
             "type": "CallFunction",
             "form": "Cloudfits.esp|800",
@@ -516,62 +722,6 @@
             "function": "EmptySlot",
             "params": [
               "{i}24"
-            ]
-          }
-        },
-        {
-          "text": "Empty Skill 2",
-          "type": "button",
-          "help": "Moves the contents of Skill 2 into your inventory.",
-          "action": {
-            "type": "CallFunction",
-            "form": "Cloudfits.esp|800",
-            "scriptName": "Cloudfits:Manager",
-            "function": "EmptySlot",
-            "params": [
-              "{i}25"
-            ]
-          }
-        },
-        {
-          "text": "Empty Skill 3",
-          "type": "button",
-          "help": "Moves the contents of Skill 3 into your inventory.",
-          "action": {
-            "type": "CallFunction",
-            "form": "Cloudfits.esp|800",
-            "scriptName": "Cloudfits:Manager",
-            "function": "EmptySlot",
-            "params": [
-              "{i}26"
-            ]
-          }
-        },
-        {
-          "text": "Empty Winter",
-          "type": "button",
-          "help": "Moves the contents of Winter into your inventory.",
-          "action": {
-            "type": "CallFunction",
-            "form": "Cloudfits.esp|800",
-            "scriptName": "Cloudfits:Manager",
-            "function": "EmptySlot",
-            "params": [
-              "{i}27"
-            ]
-          }
-        },
-        {
-          "text": "Empty Hazmat",
-          "type": "button",
-          "help": "Moves the contents of Hazmat into your inventory.",
-          "action": {
-            "type": "CallFunction",
-            "form": "Cloudfits.esp|800",
-            "scriptName": "Cloudfits:Manager",
-            "function": "EmptySlot",
-            "params": [
-              "{i}28"
             ]
           }
         }

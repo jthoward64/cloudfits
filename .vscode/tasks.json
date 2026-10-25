@@ -2,9 +2,18 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "Build Native",
+      "type": "process",
+      "command": "cmake",
+      "args": ["--workflow", "--preset", "release"],
+      "options": { "cwd": "${workspaceFolder}/native" },
+      "problemMatcher": []
+    },
+    {
       "label": "Build All",
       "type": "dotEsp",
       "task": "buildAll",
+      "dependsOn": "Build Native",
       "problemMatcher": []
     },
     {

@@ -15,49 +15,276 @@ MenuButtons:
     Value: Cancel
 - Text:
     TargetLanguage: English
-    Value: Armor
+    Value: Slot 1
   Conditions:
   - MutagenObjectType: ConditionFloat
-    CompareOperator: LessThan
-    ComparisonValue: 7
+    ComparisonValue: 1
     Data:
       MutagenObjectType: FunctionConditionData
       Function: GetGlobalValue
-      ParameterOneRecord: 000A60:Cloudfits.esp
-      ParameterOneNumber: 16779872
+      ParameterOneRecord: 000A40:Cloudfits.esp
+      ParameterOneNumber: 16779840
 - Text:
     TargetLanguage: English
-    Value: Clothing
+    Value: Slot 2
   Conditions:
   - MutagenObjectType: ConditionFloat
-    CompareOperator: LessThan
-    ComparisonValue: 8
+    ComparisonValue: 1
     Data:
       MutagenObjectType: FunctionConditionData
       Function: GetGlobalValue
-      ParameterOneRecord: 000A61:Cloudfits.esp
-      ParameterOneNumber: 16779873
+      ParameterOneRecord: 000A41:Cloudfits.esp
+      ParameterOneNumber: 16779841
 - Text:
     TargetLanguage: English
-    Value: Faction
+    Value: Slot 3
   Conditions:
   - MutagenObjectType: ConditionFloat
-    CompareOperator: LessThan
-    ComparisonValue: 9
+    ComparisonValue: 1
     Data:
       MutagenObjectType: FunctionConditionData
       Function: GetGlobalValue
-      ParameterOneRecord: 000A62:Cloudfits.esp
-      ParameterOneNumber: 16779874
+      ParameterOneRecord: 000A42:Cloudfits.esp
+      ParameterOneNumber: 16779842
 - Text:
     TargetLanguage: English
-    Value: Utility
+    Value: Slot 4
   Conditions:
   - MutagenObjectType: ConditionFloat
-    CompareOperator: LessThan
-    ComparisonValue: 5
+    ComparisonValue: 1
     Data:
       MutagenObjectType: FunctionConditionData
       Function: GetGlobalValue
-      ParameterOneRecord: 000A63:Cloudfits.esp
-      ParameterOneNumber: 16779875
+      ParameterOneRecord: 000A43:Cloudfits.esp
+      ParameterOneNumber: 16779843
+- Text:
+    TargetLanguage: English
+    Value: Slot 5
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A44:Cloudfits.esp
+      ParameterOneNumber: 16779844
+- Text:
+    TargetLanguage: English
+    Value: Slot 6
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A45:Cloudfits.esp
+      ParameterOneNumber: 16779845
+- Text:
+    TargetLanguage: English
+    Value: Slot 7
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A46:Cloudfits.esp
+      ParameterOneNumber: 16779846
+- Text:
+    TargetLanguage: English
+    Value: Slot 8
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A47:Cloudfits.esp
+      ParameterOneNumber: 16779847
+- Text:
+    TargetLanguage: English
+    Value: Slot 9
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A48:Cloudfits.esp
+      ParameterOneNumber: 16779848
+- Text:
+    TargetLanguage: English
+    Value: Slot 10
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A49:Cloudfits.esp
+      ParameterOneNumber: 16779849
+- Text:
+    TargetLanguage: English
+    Value: Slot 11
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A4A:Cloudfits.esp
+      ParameterOneNumber: 16779850
+- Text:
+    TargetLanguage: English
+    Value: Slot 12
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A4B:Cloudfits.esp
+      ParameterOneNumber: 16779851
+- Text:
+    TargetLanguage: English
+    Value: Slot 13
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A4C:Cloudfits.esp
+      ParameterOneNumber: 16779852
+- Text:
+    TargetLanguage: English
+    Value: Slot 14
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A4D:Cloudfits.esp
+      ParameterOneNumber: 16779853
+- Text:
+    TargetLanguage: English
+    Value: Slot 15
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A4E:Cloudfits.esp
+      ParameterOneNumber: 16779854
+- Text:
+    TargetLanguage: English
+    Value: Slot 16
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A4F:Cloudfits.esp
+      ParameterOneNumber: 16779855
+- Text:
+    TargetLanguage: English
+    Value: Slot 17
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A50:Cloudfits.esp
+      ParameterOneNumber: 16779856
+- Text:
+    TargetLanguage: English
+    Value: Slot 18
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A51:Cloudfits.esp
+      ParameterOneNumber: 16779857
+- Text:
+    TargetLanguage: English
+    Value: Slot 19
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A52:Cloudfits.esp
+      ParameterOneNumber: 16779858
+- Text:
+    TargetLanguage: English
+    Value: Slot 20
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A53:Cloudfits.esp
+      ParameterOneNumber: 16779859
+- Text:
+    TargetLanguage: English
+    Value: Slot 21
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A54:Cloudfits.esp
+      ParameterOneNumber: 16779860
+- Text:
+    TargetLanguage: English
+    Value: Slot 22
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A55:Cloudfits.esp
+      ParameterOneNumber: 16779861
+- Text:
+    TargetLanguage: English
+    Value: Slot 23
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A56:Cloudfits.esp
+      ParameterOneNumber: 16779862
+- Text:
+    TargetLanguage: English
+    Value: Slot 24
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A57:Cloudfits.esp
+      ParameterOneNumber: 16779863
+- Text:
+    TargetLanguage: English
+    Value: Slot 25
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A58:Cloudfits.esp
+      ParameterOneNumber: 16779864

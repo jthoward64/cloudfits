@@ -1,0 +1,11 @@
+{
+  "name": "cloudfits",
+  "version-string": "1.0.0",
+  "dependencies": [
+    "boost-stl-interfaces",
+    "fmt",
+    "rsm-mmio",
+    "spdlog",
+    "zydis"
+  ]
+}

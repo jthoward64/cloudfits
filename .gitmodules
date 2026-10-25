@@ -1,0 +1,3 @@
+[submodule "native/external/CommonLibF4RD"]
+	path = native/external/CommonLibF4RD
+	url = https://github.com/Zzyxz/CommonLibF4RD.git

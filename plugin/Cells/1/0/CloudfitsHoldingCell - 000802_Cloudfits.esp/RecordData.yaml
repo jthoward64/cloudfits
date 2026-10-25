@@ -239,38 +239,6 @@ Persistent:
   Base: 000801:Cloudfits.esp
   Position: 1536, 0, 0
 - MutagenObjectType: PlacedObject
-  FormKey: 000A19:Cloudfits.esp
-  MajorRecordFlagsRaw: 1024
-  EditorID: CloudfitsSlotRef26
-  Fallout4MajorRecordFlags:
-  - 0x400
-  Base: 000801:Cloudfits.esp
-  Position: 1600, 0, 0
-- MutagenObjectType: PlacedObject
-  FormKey: 000A1A:Cloudfits.esp
-  MajorRecordFlagsRaw: 1024
-  EditorID: CloudfitsSlotRef27
-  Fallout4MajorRecordFlags:
-  - 0x400
-  Base: 000801:Cloudfits.esp
-  Position: 1664, 0, 0
-- MutagenObjectType: PlacedObject
-  FormKey: 000A1B:Cloudfits.esp
-  MajorRecordFlagsRaw: 1024
-  EditorID: CloudfitsSlotRef28
-  Fallout4MajorRecordFlags:
-  - 0x400
-  Base: 000801:Cloudfits.esp
-  Position: 1728, 0, 0
-- MutagenObjectType: PlacedObject
-  FormKey: 000A1C:Cloudfits.esp
-  MajorRecordFlagsRaw: 1024
-  EditorID: CloudfitsSlotRef29
-  Fallout4MajorRecordFlags:
-  - 0x400
-  Base: 000801:Cloudfits.esp
-  Position: 1792, 0, 0
-- MutagenObjectType: PlacedObject
   FormKey: 00081F:Cloudfits.esp
   MajorRecordFlagsRaw: 1024
   EditorID: CloudfitsHomeRef
