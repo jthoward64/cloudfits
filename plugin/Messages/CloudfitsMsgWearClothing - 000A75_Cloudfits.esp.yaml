@@ -1,0 +1,103 @@
+FormKey: 000A75:Cloudfits.esp
+EditorID: CloudfitsMsgWearClothing
+Description:
+  TargetLanguage: English
+  Value: "Clothing: slot to wear from"
+Name:
+  TargetLanguage: English
+  Value: Cloudfits
+OwnerQuest: 000800:Cloudfits.esp
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Back
+- Text:
+    TargetLanguage: English
+    Value: Casual 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A47:Cloudfits.esp
+      ParameterOneNumber: 16779847
+- Text:
+    TargetLanguage: English
+    Value: Casual 2
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A48:Cloudfits.esp
+      ParameterOneNumber: 16779848
+- Text:
+    TargetLanguage: English
+    Value: Casual 3
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A49:Cloudfits.esp
+      ParameterOneNumber: 16779849
+- Text:
+    TargetLanguage: English
+    Value: Formal 1
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A4A:Cloudfits.esp
+      ParameterOneNumber: 16779850
+- Text:
+    TargetLanguage: English
+    Value: Formal 2
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A4B:Cloudfits.esp
+      ParameterOneNumber: 16779851
+- Text:
+    TargetLanguage: English
+    Value: Formal 3
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A4C:Cloudfits.esp
+      ParameterOneNumber: 16779852
+- Text:
+    TargetLanguage: English
+    Value: Swim
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A4D:Cloudfits.esp
+      ParameterOneNumber: 16779853
+- Text:
+    TargetLanguage: English
+    Value: Sleep
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    ComparisonValue: 1
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A4E:Cloudfits.esp
+      ParameterOneNumber: 16779854

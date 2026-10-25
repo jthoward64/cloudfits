@@ -1,0 +1,581 @@
+{
+  "minMcmVersion": 4,
+  "modName": "Cloudfits",
+  "displayName": "Cloudfits",
+  "pluginRequirements": [
+    "Cloudfits.esp"
+  ],
+  "pages": [
+    {
+      "pageDisplayName": "Hotkeys",
+      "content": [
+        {
+          "text": "Hotkeys",
+          "type": "section"
+        },
+        {
+          "id": "cloudfitsStoreKey",
+          "text": "Store outfit",
+          "type": "hotkey",
+          "help": "Pick a free slot, then choose whether to store what you are wearing or fill it by hand."
+        },
+        {
+          "id": "cloudfitsWearKey",
+          "text": "Wear outfit",
+          "type": "hotkey",
+          "help": "Pick a stored slot. Whatever you still wear from the last one goes back to it first."
+        },
+        {
+          "type": "spacer",
+          "numLines": 1
+        },
+        {
+          "text": "Diagnostics",
+          "type": "section"
+        },
+        {
+          "id": "bLogging:Cloudfits",
+          "text": "Write Cloudfits.log",
+          "type": "switcher",
+          "valueOptions": {
+            "sourceType": "ModSettingBool"
+          },
+          "help": "Appends what Cloudfits does to Cloudfits.log next to Fallout4.exe. Needs SUP F4SE; without it this does nothing."
+        },
+        {
+          "type": "spacer",
+          "numLines": 1
+        },
+        {
+          "text": "Protected body slots",
+          "type": "section"
+        },
+        {
+          "text": "Apparel touching a protected slot is never stored. These slots are shared by scene props, creature skins and hidden effect items.",
+          "type": "text",
+          "help": ""
+        },
+        {
+          "id": "bSkip53:Slots",
+          "text": "Skip slot 53 when storing",
+          "type": "switcher",
+          "valueOptions": {
+            "sourceType": "ModSettingBool"
+          },
+          "help": "[Default: ON] Used by waist attachments and creature skins."
+        },
+        {
+          "id": "bSkip59:Slots",
+          "text": "Skip slot 59 when storing",
+          "type": "switcher",
+          "valueOptions": {
+            "sourceType": "ModSettingBool"
+          },
+          "help": "[Default: ON] Used by wearable implants, vertibird armour, creature skins."
+        },
+        {
+          "id": "bSkip60:Slots",
+          "text": "Skip slot 60 when storing",
+          "type": "switcher",
+          "valueOptions": {
+            "sourceType": "ModSettingBool"
+          },
+          "help": "[Default: ON] Used by Pip-Boy, power armour frames, full-body skins."
+        },
+        {
+          "id": "bSkip61:Slots",
+          "text": "Skip slot 61 when storing",
+          "type": "switcher",
+          "valueOptions": {
+            "sourceType": "ModSettingBool"
+          },
+          "help": "[Default: ON] Used by scene props, gore effects, Pip-Boy replacements."
+        },
+        {
+          "type": "spacer",
+          "numLines": 1
+        },
+        {
+          "text": "Setup",
+          "type": "section"
+        },
+        {
+          "text": "Install / repair",
+          "type": "button",
+          "help": "Starts the quest and re-registers everything. Safe to press any time; does nothing if all is well.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "Install",
+            "params": []
+          }
+        },
+        {
+          "text": "Uninstall",
+          "type": "button",
+          "help": "Empties every slot into your inventory and stops the mod, so it can be removed without losing items.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "Uninstall",
+            "params": []
+          }
+        }
+      ]
+    },
+    {
+      "pageDisplayName": "Slots",
+      "content": [
+        {
+          "text": "Empty a slot into your inventory",
+          "type": "section"
+        },
+        {
+          "text": "Sends everything a slot holds to you, freeing it. Nothing is equipped.",
+          "type": "text",
+          "help": ""
+        },
+        {
+          "type": "spacer",
+          "numLines": 1
+        },
+        {
+          "text": "Armor",
+          "type": "section"
+        },
+        {
+          "text": "Empty Combat 1",
+          "type": "button",
+          "help": "Moves the contents of Combat 1 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}0"
+            ]
+          }
+        },
+        {
+          "text": "Empty Combat 2",
+          "type": "button",
+          "help": "Moves the contents of Combat 2 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}1"
+            ]
+          }
+        },
+        {
+          "text": "Empty Combat 3",
+          "type": "button",
+          "help": "Moves the contents of Combat 3 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}2"
+            ]
+          }
+        },
+        {
+          "text": "Empty Exploration 1",
+          "type": "button",
+          "help": "Moves the contents of Exploration 1 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}3"
+            ]
+          }
+        },
+        {
+          "text": "Empty Exploration 2",
+          "type": "button",
+          "help": "Moves the contents of Exploration 2 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}4"
+            ]
+          }
+        },
+        {
+          "text": "Empty Exploration 3",
+          "type": "button",
+          "help": "Moves the contents of Exploration 3 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}5"
+            ]
+          }
+        },
+        {
+          "text": "Empty Stealth",
+          "type": "button",
+          "help": "Moves the contents of Stealth into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}6"
+            ]
+          }
+        },
+        {
+          "type": "spacer",
+          "numLines": 1
+        },
+        {
+          "text": "Clothing",
+          "type": "section"
+        },
+        {
+          "text": "Empty Casual 1",
+          "type": "button",
+          "help": "Moves the contents of Casual 1 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}7"
+            ]
+          }
+        },
+        {
+          "text": "Empty Casual 2",
+          "type": "button",
+          "help": "Moves the contents of Casual 2 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}8"
+            ]
+          }
+        },
+        {
+          "text": "Empty Casual 3",
+          "type": "button",
+          "help": "Moves the contents of Casual 3 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}9"
+            ]
+          }
+        },
+        {
+          "text": "Empty Formal 1",
+          "type": "button",
+          "help": "Moves the contents of Formal 1 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}10"
+            ]
+          }
+        },
+        {
+          "text": "Empty Formal 2",
+          "type": "button",
+          "help": "Moves the contents of Formal 2 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}11"
+            ]
+          }
+        },
+        {
+          "text": "Empty Formal 3",
+          "type": "button",
+          "help": "Moves the contents of Formal 3 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}12"
+            ]
+          }
+        },
+        {
+          "text": "Empty Swim",
+          "type": "button",
+          "help": "Moves the contents of Swim into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}13"
+            ]
+          }
+        },
+        {
+          "text": "Empty Sleep",
+          "type": "button",
+          "help": "Moves the contents of Sleep into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}14"
+            ]
+          }
+        },
+        {
+          "type": "spacer",
+          "numLines": 1
+        },
+        {
+          "text": "Faction",
+          "type": "section"
+        },
+        {
+          "text": "Empty BoS",
+          "type": "button",
+          "help": "Moves the contents of BoS into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}15"
+            ]
+          }
+        },
+        {
+          "text": "Empty Minutemen",
+          "type": "button",
+          "help": "Moves the contents of Minutemen into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}16"
+            ]
+          }
+        },
+        {
+          "text": "Empty Institute",
+          "type": "button",
+          "help": "Moves the contents of Institute into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}17"
+            ]
+          }
+        },
+        {
+          "text": "Empty Railroad",
+          "type": "button",
+          "help": "Moves the contents of Railroad into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}18"
+            ]
+          }
+        },
+        {
+          "text": "Empty Raider",
+          "type": "button",
+          "help": "Moves the contents of Raider into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}19"
+            ]
+          }
+        },
+        {
+          "text": "Empty Gunner",
+          "type": "button",
+          "help": "Moves the contents of Gunner into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}20"
+            ]
+          }
+        },
+        {
+          "text": "Empty Diamond City",
+          "type": "button",
+          "help": "Moves the contents of Diamond City into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}21"
+            ]
+          }
+        },
+        {
+          "text": "Empty Goodneighbor",
+          "type": "button",
+          "help": "Moves the contents of Goodneighbor into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}22"
+            ]
+          }
+        },
+        {
+          "text": "Empty Far Harbor",
+          "type": "button",
+          "help": "Moves the contents of Far Harbor into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}23"
+            ]
+          }
+        },
+        {
+          "type": "spacer",
+          "numLines": 1
+        },
+        {
+          "text": "Utility",
+          "type": "section"
+        },
+        {
+          "text": "Empty Skill 1",
+          "type": "button",
+          "help": "Moves the contents of Skill 1 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}24"
+            ]
+          }
+        },
+        {
+          "text": "Empty Skill 2",
+          "type": "button",
+          "help": "Moves the contents of Skill 2 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}25"
+            ]
+          }
+        },
+        {
+          "text": "Empty Skill 3",
+          "type": "button",
+          "help": "Moves the contents of Skill 3 into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}26"
+            ]
+          }
+        },
+        {
+          "text": "Empty Winter",
+          "type": "button",
+          "help": "Moves the contents of Winter into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}27"
+            ]
+          }
+        },
+        {
+          "text": "Empty Hazmat",
+          "type": "button",
+          "help": "Moves the contents of Hazmat into your inventory.",
+          "action": {
+            "type": "CallFunction",
+            "form": "Cloudfits.esp|800",
+            "scriptName": "Cloudfits:Manager",
+            "function": "EmptySlot",
+            "params": [
+              "{i}28"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

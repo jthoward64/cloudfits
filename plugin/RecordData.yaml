@@ -1,0 +1,14 @@
+SpriggitSource:
+  PackageName: Spriggit.Yaml.Fallout4
+  Version: 0.41
+ModKey: Cloudfits.esp
+GameRelease: Fallout4
+ModHeader:
+  Flags:
+  - Small
+  Author: Tag Howard <tag@jthoward.dev>
+  Description: Cloudfits - hotkeyed outfit slots
+  MasterReferences:
+  - Master: Fallout4.esm
+    FileSize: 0
+  INTV: 0x01000000

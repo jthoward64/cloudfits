@@ -1,0 +1,398 @@
+FormKey: 000800:Cloudfits.esp
+EditorID: CloudfitsQuest
+VirtualMachineAdapter:
+  Scripts:
+  - Name: Cloudfits:Manager
+    Properties:
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CheckedOutFlag
+      Object: 00084F:Cloudfits.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: CategoryCounts
+      Object: 000A82:Cloudfits.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: HomeMarker
+      Object: 00081F:Cloudfits.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: SlotList
+      Object: 000820:Cloudfits.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StateList
+      Object: 000821:Cloudfits.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StoreModePrompt
+      Object: 000832:Cloudfits.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StorePicker
+      Object: 000830:Cloudfits.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WearPicker
+      Object: 000831:Cloudfits.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: StoreMenus
+      Object: 000A80:Cloudfits.esp
+    - MutagenObjectType: ScriptObjectProperty
+      Name: WearMenus
+      Object: 000A81:Cloudfits.esp
+  Versioning:
+  - Break0
+  ExtraBindDataVersion: 0
+  Script:
+    Name: ''
+Name:
+  TargetLanguage: English
+  Value: Cloudfits
+Data:
+  Flags:
+  - StartGameEnabled
+  - StartsEnabled
+  Priority: 80
+UnusedConditions: []
+Aliases:
+- MutagenObjectType: QuestReferenceAlias
+  Name: Slot01
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A00:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 1
+  Name: Slot02
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A01:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 2
+  Name: Slot03
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A02:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 3
+  Name: Slot04
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A03:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 4
+  Name: Slot05
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A04:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 5
+  Name: Slot06
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A05:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 6
+  Name: Slot07
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A06:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 7
+  Name: Slot08
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A07:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 8
+  Name: Slot09
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A08:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 9
+  Name: Slot10
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A09:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 10
+  Name: Slot11
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A0A:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 11
+  Name: Slot12
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A0B:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 12
+  Name: Slot13
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A0C:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 13
+  Name: Slot14
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A0D:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 14
+  Name: Slot15
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A0E:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 15
+  Name: Slot16
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A0F:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 16
+  Name: Slot17
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A10:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 17
+  Name: Slot18
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A11:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 18
+  Name: Slot19
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A12:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 19
+  Name: Slot20
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A13:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 20
+  Name: Slot21
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A14:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 21
+  Name: Slot22
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A15:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 22
+  Name: Slot23
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A16:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 23
+  Name: Slot24
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A17:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 24
+  Name: Slot25
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A18:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 25
+  Name: Slot26
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A19:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 26
+  Name: Slot27
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A1A:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 27
+  Name: Slot28
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A1B:Cloudfits.esp
+  VoiceTypes: Null
+- MutagenObjectType: QuestReferenceAlias
+  ID: 28
+  Name: Slot29
+  Flags:
+  - Optional
+  - AllowReuseInQuest
+  - AllowDisabled
+  - StoresText
+  - UsesStoredText
+  - ClearNamesWhenRemoved
+  ForcedReference: 000A1C:Cloudfits.esp
+  VoiceTypes: Null

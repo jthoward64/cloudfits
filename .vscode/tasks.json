@@ -1,0 +1,20 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build All",
+      "type": "dotEsp",
+      "task": "buildAll",
+      "problemMatcher": []
+    },
+    {
+      "label": "Package Cloudfits",
+      "type": "process",
+      "command": "zip",
+      "args": ["-r", "-FS", "../Cloudfits.zip", ".", "-x", ".*"],
+      "options": { "cwd": "${workspaceFolder}/build/stage" },
+      "dependsOn": "Build All",
+      "problemMatcher": []
+    }
+  ]
+}

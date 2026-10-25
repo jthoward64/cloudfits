@@ -1,0 +1,9 @@
+{
+  "spriggit": "plugin",
+  "data": ["build/stage"],
+  "scripts": ["scripts/source"],
+  "stage": {
+    "MCM/Config/Cloudfits": "mcm/Config/Cloudfits",
+    "Scripts/Source": "scripts/source"
+  }
+}

@@ -1,0 +1,63 @@
+FormKey: 000830:Cloudfits.esp
+EditorID: CloudfitsMsgStorePicker
+Description:
+  TargetLanguage: English
+  Value: Store into
+Name:
+  TargetLanguage: English
+  Value: Cloudfits
+OwnerQuest: 000800:Cloudfits.esp
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Cancel
+- Text:
+    TargetLanguage: English
+    Value: Armor
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    ComparisonValue: 7
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A60:Cloudfits.esp
+      ParameterOneNumber: 16779872
+- Text:
+    TargetLanguage: English
+    Value: Clothing
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    ComparisonValue: 8
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A61:Cloudfits.esp
+      ParameterOneNumber: 16779873
+- Text:
+    TargetLanguage: English
+    Value: Faction
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    ComparisonValue: 9
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A62:Cloudfits.esp
+      ParameterOneNumber: 16779874
+- Text:
+    TargetLanguage: English
+    Value: Utility
+  Conditions:
+  - MutagenObjectType: ConditionFloat
+    CompareOperator: LessThan
+    ComparisonValue: 5
+    Data:
+      MutagenObjectType: FunctionConditionData
+      Function: GetGlobalValue
+      ParameterOneRecord: 000A63:Cloudfits.esp
+      ParameterOneNumber: 16779875

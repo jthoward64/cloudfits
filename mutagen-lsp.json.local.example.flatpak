@@ -1,0 +1,20 @@
+{
+  // Copy to mutagen-lsp.json.local and replace the paths with your own
+  // Assumes VSCode, Steam, and Wine are installed as flatpaks with the Wine mono extension
+  // Extract Data/Scripts/Source/Base/Base.zip in place first
+  // Run any Wine program in the prefix once to create it
+  // Add a --filesystem for any folder that Data links into such as a mod manager staging folder
+  "papyrusCompiler": "/home/you/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Fallout 4/Papyrus Compiler/PapyrusCompiler.exe",
+  "papyrusImports": ["/home/you/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Fallout 4/Data/Scripts/Source/Base"],
+  "winePrefix": "/home/you/.local/share/wineprefixes/papyrus",
+  "papyrusLauncher": [
+    "flatpak-spawn", "--host",
+    "flatpak", "run", "--command=wine",
+    "--filesystem=/home/you/.var/app/com.valvesoftware.Steam/.local/share/Steam/steamapps/common/Fallout 4",
+    "--filesystem=/home/you/path/to/fo4-cloudfits",
+    "--filesystem=/home/you/.local/share/wineprefixes/papyrus",
+    "--env=WINEPREFIX=/home/you/.local/share/wineprefixes/papyrus",
+    "--env=WINEDEBUG=-all",
+    "org.winehq.Wine"
+  ]
+}

@@ -1,0 +1,13 @@
+FormKey: 000801:Cloudfits.esp
+EditorID: CloudfitsSlotContainer
+ObjectBounds:
+  First: -18, -20, 0
+  Second: 18, 18, 16
+Name:
+  TargetLanguage: English
+  Value: Cloudfits Slot
+Model:
+  File: MarkerX.nif
+  Data: 0x0400000000000000000000000000000000000000
+OpenSound: 02365A:Fallout4.esm
+CloseSound: 02365C:Fallout4.esm

@@ -1,0 +1,21 @@
+FormKey: 000832:Cloudfits.esp
+EditorID: CloudfitsMsgStoreMode
+Description:
+  TargetLanguage: English
+  Value: Select items
+Name:
+  TargetLanguage: English
+  Value: Cloudfits
+OwnerQuest: 000800:Cloudfits.esp
+Flags:
+- MessageBox
+MenuButtons:
+- Text:
+    TargetLanguage: English
+    Value: Cancel
+- Text:
+    TargetLanguage: English
+    Value: Equipped
+- Text:
+    TargetLanguage: English
+    Value: Manual

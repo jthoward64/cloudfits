@@ -1,0 +1,21 @@
+{
+  "comment": "The fixed outfit slots, grouped by the category menu they appear under. Edit this file and run tools/gen-slots.py.",
+  "categories": [
+    {
+      "name": "Armor",
+      "slots": ["Combat 1", "Combat 2", "Combat 3", "Exploration 1", "Exploration 2", "Exploration 3", "Stealth"]
+    },
+    {
+      "name": "Clothing",
+      "slots": ["Casual 1", "Casual 2", "Casual 3", "Formal 1", "Formal 2", "Formal 3", "Swim", "Sleep"]
+    },
+    {
+      "name": "Faction",
+      "slots": ["BoS", "Minutemen", "Institute", "Railroad", "Raider", "Gunner", "Diamond City", "Goodneighbor", "Far Harbor"]
+    },
+    {
+      "name": "Utility",
+      "slots": ["Skill 1", "Skill 2", "Skill 3", "Winter", "Hazmat"]
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "modName": "Cloudfits",
+  "keybinds": [
+    {
+      "id": "cloudfitsStoreKey",
+      "desc": "Store outfit into a slot",
+      "action": {
+        "type": "CallFunction",
+        "form": "Cloudfits.esp|800",
+        "scriptName": "Cloudfits:Manager",
+        "function": "StoreOutfit",
+        "params": []
+      }
+    },
+    {
+      "id": "cloudfitsWearKey",
+      "desc": "Wear an outfit from a slot",
+      "action": {
+        "type": "CallFunction",
+        "form": "Cloudfits.esp|800",
+        "scriptName": "Cloudfits:Manager",
+        "function": "WearOutfit",
+        "params": []
+      }
+    }
+  ]
+}

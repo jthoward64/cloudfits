@@ -1,0 +1,280 @@
+FormKey: 000802:Cloudfits.esp
+EditorID: CloudfitsHoldingCell
+Flags:
+- IsInteriorCell
+Lighting:
+  AmbientColor: '#00000000'
+  DirectionalColor: '#00000000'
+  FogNearColor: '#00000000'
+  DirectionalFade: 1
+  FogPower: 1
+  AmbientColors:
+    DirectionalXPlus: '#00FFFFFF'
+    DirectionalXMinus: '#00FFFFFF'
+    DirectionalYPlus: '#00FFFFFF'
+    DirectionalYMinus: '#00FFFFFF'
+    DirectionalZPlus: '#00FFFFFF'
+    DirectionalZMinus: '#00FFFFFF'
+    Specular: '#00000000'
+  FogFarColor: '#00000000'
+  FogMax: 1
+  Inherits:
+  - AmbientColor
+  - DirectionalColor
+  - FogColor
+  - FogNear
+  - FogFar
+  - ClipDistance
+  - FogPower
+  - FogMax
+  - LightFadeDistances
+  NearHeightRange: 10000
+  ForColorHighNear: '#00000000'
+  ForColorHighFar: '#00000000'
+  HighDensityScale: 1
+  FogNearScale: 1
+  FogFarScale: 1
+  FogHighNearScale: 1
+  FogHighFarScale: 1
+  FarHeightRange: 10000
+WaterHeight: 0
+Persistent:
+- MutagenObjectType: PlacedObject
+  FormKey: 000A00:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef01
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+- MutagenObjectType: PlacedObject
+  FormKey: 000A01:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef02
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 64, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A02:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef03
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 128, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A03:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef04
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 192, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A04:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef05
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 256, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A05:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef06
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 320, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A06:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef07
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 384, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A07:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef08
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 448, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A08:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef09
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 512, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A09:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef10
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 576, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A0A:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef11
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 640, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A0B:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef12
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 704, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A0C:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef13
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 768, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A0D:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef14
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 832, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A0E:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef15
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 896, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A0F:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef16
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 960, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A10:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef17
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1024, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A11:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef18
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1088, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A12:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef19
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1152, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A13:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef20
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1216, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A14:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef21
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1280, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A15:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef22
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1344, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A16:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef23
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1408, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A17:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef24
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1472, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A18:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef25
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1536, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A19:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef26
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1600, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A1A:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef27
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1664, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A1B:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef28
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1728, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 000A1C:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsSlotRef29
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000801:Cloudfits.esp
+  Position: 1792, 0, 0
+- MutagenObjectType: PlacedObject
+  FormKey: 00081F:Cloudfits.esp
+  MajorRecordFlagsRaw: 1024
+  EditorID: CloudfitsHomeRef
+  Fallout4MajorRecordFlags:
+  - 0x400
+  Base: 000803:Cloudfits.esp
+  Position: -128, 0, 0
