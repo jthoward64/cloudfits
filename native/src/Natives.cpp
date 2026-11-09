@@ -189,7 +189,6 @@ namespace Natives
 				RE::TESBoundObject* object;
 				std::uint32_t index;
 				std::int32_t count;
-				const RE::ExtraDataList* extra;
 			};
 
 			std::vector<std::int32_t> equipped;
@@ -199,22 +198,44 @@ namespace Natives
 
 			std::vector<Entry> entries;
 			ForEachStack(a_source, [&](RE::BGSInventoryItem& a_item, const Stack& a_stack, std::uint32_t a_index) {
-				entries.push_back({ a_item.object, a_index, static_cast<std::int32_t>(a_stack.GetCount()), a_stack.extra.get() });
+				entries.push_back({ a_item.object, a_index, static_cast<std::int32_t>(a_stack.GetCount()) });
 			});
 			// removing a stack renumbers the later stacks of the same object
 			std::ranges::sort(entries, [](const Entry& a_lhs, const Entry& a_rhs) {
 				return a_lhs.object != a_rhs.object ? a_lhs.object < a_rhs.object : a_lhs.index > a_rhs.index;
 			});
-			for (const auto& entry : entries) {
-				MoveStack(a_source, entry.object, entry.index, entry.count, a_actor);
-			}
 
 			const auto manager = RE::ActorEquipManager::GetSingleton();
+			// the lists the actor holds for this object, read fresh either side of its own move
+			std::vector<const RE::ExtraDataList*> held;
 			for (const auto& entry : entries) {
+				held.clear();
+				ForEachStack(a_actor, [&](RE::BGSInventoryItem& a_item, const Stack& a_stack, std::uint32_t) {
+					if (a_item.object == entry.object) {
+						held.push_back(a_stack.extra.get());
+					}
+				});
+
+				MoveStack(a_source, entry.object, entry.index, entry.count, a_actor);
+
 				if (!manager || !entry.object->As<RE::TESObjectARMO>()) {
 					continue;
 				}
-				const auto index = UnequippedStack(a_actor, entry.object, entry.extra);
+				// the stack the move landed in, or any unworn one once it merged into a held stack
+				std::optional<std::uint32_t> arrived;
+				std::optional<std::uint32_t> unworn;
+				ForEachStack(a_actor, [&](RE::BGSInventoryItem& a_item, const Stack& a_stack, std::uint32_t a_index) {
+					if (a_item.object != entry.object || a_stack.IsEquipped()) {
+						return;
+					}
+					if (!unworn) {
+						unworn = a_index;
+					}
+					if (!arrived && std::ranges::find(held, a_stack.extra.get()) == held.end()) {
+						arrived = a_index;
+					}
+				});
+				const auto index = arrived ? arrived : unworn;
 				if (!index) {
 					logger::info("take: {:08X} not found unequipped after the move", entry.object->GetFormID());
 					continue;
@@ -228,7 +249,7 @@ namespace Natives
 					}
 				});
 				const RE::BGSObjectInstance object{ entry.object, instance };
-				const auto ok = manager->EquipObject(a_actor, object, *index, 1, nullptr, false, false, false, true, false);
+				const auto ok = manager->EquipObject(a_actor, object, *index, 1, nullptr, true, false, false, false, false);
 				logger::info("take: {:08X} stack {} equip={}", entry.object->GetFormID(), *index, ok);
 				const auto formID = static_cast<std::int32_t>(entry.object->GetFormID());
 				if (ok && std::ranges::find(equipped, formID) == equipped.end()) {
