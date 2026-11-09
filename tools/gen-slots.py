@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+
+# SPDX-FileCopyrightText: 2026 Tag Howard <tag@jthoward.dev>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
 """Generate everything that has to agree about the slots.
 
 Emits:

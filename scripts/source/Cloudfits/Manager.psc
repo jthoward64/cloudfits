@@ -1,3 +1,7 @@
+; SPDX-FileCopyrightText: 2026 Tag Howard <tag@jthoward.dev>
+;
+; SPDX-License-Identifier: GPL-3.0-only
+
 Scriptname Cloudfits:Manager extends Quest
 {Outfit slots named in MCM, driven by two hotkeys.}
 

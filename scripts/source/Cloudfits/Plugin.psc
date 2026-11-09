@@ -1,3 +1,7 @@
+; SPDX-FileCopyrightText: 2026 Tag Howard <tag@jthoward.dev>
+;
+; SPDX-License-Identifier: GPL-3.0-only
+
 Scriptname Cloudfits:Plugin Native Hidden
 {Functions implemented by Cloudfits.dll.}
 

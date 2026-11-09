@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2026 Tag Howard <tag@jthoward.dev>
+#
+# SPDX-License-Identifier: GPL-3.0-only
+
 # x64-windows-static-md, cross-built on Linux with clang-cl against an xwin splat
 set(VCPKG_TARGET_ARCHITECTURE x64)
 set(VCPKG_CRT_LINKAGE dynamic)

@@ -1,0 +1,25 @@
+version = 1
+
+[[annotations]]
+path = ["mcm/**", "plugin/**"]
+SPDX-FileCopyrightText = "2026 Tag Howard <tag@jthoward.dev>"
+SPDX-License-Identifier = "GPL-3.0-only"
+
+# written by tools/gen-slots.py
+[[annotations]]
+path = [
+    "plugin/Globals/CloudfitsSlotState*.yaml",
+    "plugin/FormLists/*.yaml",
+    "plugin/Messages/CloudfitsMsgStorePicker*.yaml",
+    "plugin/Messages/CloudfitsMsgWearPicker*.yaml",
+]
+SPDX-FileCopyrightText = "none"
+SPDX-License-Identifier = "CC0-1.0"
+
+[[annotations]]
+path = "native/patches/*.patch"
+SPDX-FileCopyrightText = [
+    "2019 ryan-rsm-mckenzie",
+    "2026 Tag Howard <tag@jthoward.dev>",
+]
+SPDX-License-Identifier = "MIT"
